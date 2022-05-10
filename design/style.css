@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./Outfit-VariableFont_wght.ttf);
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: outfit;
+}
+
+.box-branca {
+  display: flex;
+  background-color: white;
+  width: 28em;
+  height: 40em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  flex-direction: column;
+}
+
+.box-branca img {
+  width: 26em;
+  height: 27em;
+  border-radius: 15px;
+}
+.box-branca h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: hsl(218, 44%, 22%);
+  margin: 20px;
+}
+
+.box-branca p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: hsl(212, 45%, 89%);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .box-branca {
+    width: 14em;
+    height: 22em;
+  }
+
+  .box-branca img {
+    width: 12em;
+    height: 12em;
+  }
+  .box-branca h1 {
+    font-size: 1rem;
+  }
+
+  .box-branca p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-height: 700px) {
+  .box-branca {
+    width: 18em;
+    height: 27em;
+  }
+
+  .box-branca img {
+    width: 16em;
+    height: 15em;
+  }
+  .box-branca h1 {
+    font-size: 1.4rem;
+  }
+
+  .box-branca p {
+    font-size: 0.7rem;
+  }
+}
